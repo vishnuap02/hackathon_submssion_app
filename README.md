@@ -23,3 +23,7 @@ APIs:
 7) http://127.0.0.1:8000/todo/api/v1/listsubmissions :  GET list of ALL submissions.
 
 MODEL STRUCTURE:
+User model : Has Name , email and password to register.
+Hackathon model: Has all specified field with given PRIORITY to choose between image , file and link submission, has a field to mention which USER created it.
+Register Model : Has Serial number of registration and which user(FK) has registered to which hackathon(FK).
+Submission Model : Apart from mentioned field in docx , added the field "is_favouirte" , "sub_date" , github and other link. Here it can be submitted in image or file or link
