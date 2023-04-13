@@ -12,3 +12,14 @@ Setup:
 7) Then enter "python manage.py migrate"
 8) Create superuser by "python manage.py createsuperuser" , this helps in using / adding data using admin controls.
 9) enter "python manage.py runserver" , to bring server live on localhost.
+
+APIs:
+1) http://127.0.0.1:8000/admin : for admin controls.
+2) http://127.0.0.1:8000/todo/api/v1/hackathons : for creating and viewing hackathons.
+3) http://127.0.0.1:8000/todo/api/v1/listhackathons : GET list of ALL hackathons
+4) http://127.0.0.1:8000/todo/api/v1/user : for creating and viewing users.
+5) http://127.0.0.1:8000/todo/api/v1/register : for creating and viewing registrations.
+6) http://127.0.0.1:8000/todo/api/v1/submission : for creating and viewing submissions.
+7) http://127.0.0.1:8000/todo/api/v1/listsubmissions :  GET list of ALL submissions.
+
+MODEL STRUCTURE:
