@@ -67,9 +67,9 @@ DATABASES = {
      'default': {
     # MySQL engine. Powered by the mysqlclient module.
     'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'todos',
-    'USER': 'root',
-    'PASSWORD': 'Vishnuap@02',
+    'NAME': '',
+    'USER': 'username',
+    'PASSWORD': 'pw',
     'HOST': 'localhost',
     'PORT': '3306',
   }
