@@ -24,6 +24,16 @@ APIs:
 
 MODEL STRUCTURE:
 User model : Has Name , email and password to register.
+
 Hackathon model: Has all specified field with given PRIORITY to choose between image , file and link submission, has a field to mention which USER created it.
+
 Register Model : Has Serial number of registration and which user(FK) has registered to which hackathon(FK).
+
 Submission Model : Apart from mentioned field in docx , added the field "is_favouirte" , "sub_date" , github and other link. Here it can be submitted in image or file or link
+
+<img width="905" alt="image" src="https://user-images.githubusercontent.com/85162998/231822801-01d1138f-25f9-4fd9-a06d-db4cf26bf81c.png">
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/85162998/231823160-f1a05b9d-923b-48ca-bd14-1cf50c48da4e.png">
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/85162998/231823340-4391d2c6-f003-4b3e-8f60-efe490addad6.png">
+Tables in hackathon.
+<img width="218" alt="image" src="https://user-images.githubusercontent.com/85162998/231823601-754368c3-0612-466e-b698-0ee0be527339.png">
+
